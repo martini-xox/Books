@@ -72,7 +72,18 @@ const LIVROS = [
      categoria: "Romance",               // Veja CATEGORIAS abaixo
      capa:      "perseguindo-adeline.png",   // Só o nome, sem o caminho
      arquivo:   "perseguindo-adeline.pdf",   // Só o nome, sem o caminho
+   },
+
+   {
+     titulo:    "Nome do Livro",          // Título exibido no card
+     autor:     "Nome do Autor",          // Autor(a)
+     descricao: "Breve descrição...",     // Até 2 linhas visíveis
+     categoria: "Romance",               // Veja CATEGORIAS abaixo
+     capa:      "nome-do-arquivo.jpg",   // Só o nome, sem o caminho
+     arquivo:   "nome-do-arquivo.pdf",   // Só o nome, sem o caminho
    }
+
+
 ];
 
 
