@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca Pessoal</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fonte elegante do Google Fonts (carregada externamente, mas leve e sem framework) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">Biblioteca</span>
+      </a>
+      <div class="nav-info">
+        <span id="book-count">0 obras</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <p class="hero-label">coleção pessoal</p>
+    <h1 class="hero-title">Seus livros,<br /><em>seu mundo.</em></h1>
+    <p class="hero-subtitle">
+      Uma biblioteca privada para guardar e acessar suas obras favoritas com elegância.
+    </p>
+  </header>
+
+  <!-- ===================== CONTROLES ===================== -->
+  <section class="controls">
+    <div class="controls-inner">
+
+      <!-- Barra de pesquisa -->
+      <div class="search-wrapper">
+        <span class="search-icon">⌕</span>
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          placeholder="Pesquisar por título, autor..."
+          autocomplete="off"
+        />
+        <button class="search-clear" id="search-clear" aria-label="Limpar pesquisa">×</button>
+      </div>
+
+      <!-- Filtros de categoria -->
+      <div class="filter-wrapper" id="filter-wrapper">
+        <!-- Gerado dinamicamente pelo script.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== GRID DE LIVROS ===================== -->
+  <main class="library">
+    <div class="book-grid" id="book-grid">
+      <!-- Cards gerados dinamicamente pelo script.js -->
+    </div>
+
+    <!-- Mensagem de "nenhum resultado" -->
+    <div class="empty-state" id="empty-state" style="display:none;">
+      <span class="empty-icon">◇</span>
+      <p>Nenhuma obra encontrada.</p>
+    </div>
+  </main>
+
+  <!-- ===================== MODAL DO LEITOR EPUB ===================== -->
+  <!--
+    Este modal é exibido quando o usuário tenta "Ler" um EPUB.
+    Para PDFs, o navegador abre diretamente.
+  -->
+  <div class="modal-overlay" id="epub-modal" role="dialog" aria-modal="true" style="display:none;">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-title">Lendo</h2>
+        <button class="modal-close" id="modal-close" aria-label="Fechar">×</button>
+      </div>
+      <div class="modal-body">
+        <!-- Área de leitura do EPUB -->
+        <div class="epub-reader" id="epub-reader">
+          <p class="epub-notice">
+            Para ler arquivos <strong>EPUB</strong> diretamente no navegador é necessário
+            uma biblioteca especializada. Por ora, o arquivo será <strong>baixado</strong>
+            para você abrir no leitor de sua preferência (ex: Calibre, KOReader, Apple Books).
+          </p>
+          <button class="btn btn-primary" id="epub-download-btn">⤓ Baixar EPUB</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-symbol">◈</span>
+      <p class="footer-love">eu te amo, Mariam <span class="heart">♡</span></p>
+      <p class="footer-note">biblioteca pessoal · feita com cuidado</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
