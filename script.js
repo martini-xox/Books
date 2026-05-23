@@ -64,6 +64,15 @@ const LIVROS = [
     capa:      "assombrando-adeline.png",         // coloque a imagem em /covers/assombrando-adeline.jpg
     arquivo:   "assombrando-adeline.pdf",         // coloque o PDF em /books/assombrando-adeline.pdf
   },
+
+   {
+     titulo:    "Perseguindo Adeline",          // Título exibido no card
+     autor:     "H.D Carlton",          // Autor(a)
+     descricao: "A continuação da história de Adeline Reilly, que enfrenta novos desafios em sua jornada.",     // Até 2 linhas visíveis
+     categoria: "Romance",               // Veja CATEGORIAS abaixo
+     capa:      "perseguindo-adeline.png",   // Só o nome, sem o caminho
+     arquivo:   "perseguindo-adeline.pdf",   // Só o nome, sem o caminho
+   }
 ];
 
 
