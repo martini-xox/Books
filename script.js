@@ -68,7 +68,7 @@ const LIVROS = [
    {
      titulo:    "Perseguindo Adeline",          // Título exibido no card
      autor:     "H.D Carlton",          // Autor(a)
-     descricao: "A continuação da história de Adeline Reilly, que enfrenta novos desafios em sua jornada.",     // Até 2 linhas visíveis
+     descricao: "A continuação da história de Adeline, que enfrenta novos desafios em sua jornada.",     // Até 2 linhas visíveis
      categoria: "Romance",               // Veja CATEGORIAS abaixo
      capa:      "perseguindo-adeline.png",   // Só o nome, sem o caminho
      arquivo:   "perseguindo-adeline.pdf",   // Só o nome, sem o caminho
