@@ -75,12 +75,30 @@ const LIVROS = [
    },
 
    {
-     titulo:    "Nome do Livro",          // Título exibido no card
-     autor:     "Nome do Autor",          // Autor(a)
-     descricao: "Breve descrição...",     // Até 2 linhas visíveis
+     titulo:    "Fazendo meu filme 3",          // Título exibido no card
+     autor:     "Paula Pimenta",          // Autor(a)
+     descricao: "a protagonista retorna ao Brasil após seu intercâmbio. Agora com 18 anos, ela lida com o amadurecimento, a readaptação familiar, os conflitos amorosos com o namorado Leo e a intensa pressão para estudar para o vestibularBreve descrição...",     // Até 2 linhas visíveis
      categoria: "Romance",               // Veja CATEGORIAS abaixo
-     capa:      "nome-do-arquivo.jpg",   // Só o nome, sem o caminho
-     arquivo:   "nome-do-arquivo.pdf",   // Só o nome, sem o caminho
+     capa:      "fazendo-meu-filme-3.png",   // Só o nome, sem o caminho
+     arquivo:   "fazendo-meu-filme-3.pdf",   // Só o nome, sem o caminho
+   },
+
+    {
+     titulo:    "Fazendo meu filme 4",          // Título exibido no card
+     autor:     "H.D Carlton",          // Autor(a)
+     descricao: "Após uma separação dolorosa, Fani e Léo seguem caminhos opostos por anos. O livro narra o amadurecimento, as escolhas de vida e o aguardado reencontro dos dois para decidirem o destino de suas vidas amorosas",     // Até 2 linhas visíveis
+     categoria: "Romance",               // Veja CATEGORIAS abaixo
+     capa:      "fazendo-meu-filme-4.png",   // Só o nome, sem o caminho
+     arquivo:   "fazendo-meu-filme-4.pdf",   // Só o nome, sem o caminho
+   },
+
+   {
+     titulo:    "A Razão do Amor",          // Título exibido no card
+     autor:     "Ali Hazelwood",          // Autor(a)
+     descricao: " A história segue Bee Königswasser, uma neurocientista brilhante que é contratada para liderar um prestigioso projeto de engenharia na NASA",     // Até 2 linhas visíveis
+     categoria: "Romance",               // Veja CATEGORIAS abaixo
+     capa:      "a-razao-do-amor.png",   // Só o nome, sem o caminho
+     arquivo:   "a-razao-do-amor.pdf",   // Só o nome, sem o caminho
    }
 
 
